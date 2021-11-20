@@ -30,6 +30,7 @@ const createIncompleteList = (text) => {
     const div2 = document.createElement("div");
     div2.className = "list-row";
 
+    // liを作成
     const li2 = document.createElement("li");
     li2.innerText = text;
 
